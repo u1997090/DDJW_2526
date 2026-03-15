@@ -55,3 +55,12 @@ button:active {
     background-color: #6a1bb9;
     box-shadow: 0 0 5px #6a1bb9;
 }
+
+#game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;   
+    align-items: center;      
+    height: 80vh;              
+}
+
