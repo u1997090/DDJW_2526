@@ -1,12 +1,23 @@
 <!DOCTYPE html> 
 <html>
-	<head>
-        <script src="../js/game.js" type="module"></script>
-		<title> Memory - Pantalla </title>
-	</head>
-	<body>
-		<h1>Partida</h1>
-        <div id="game"> </div>
-	</body>
-</html>
+<head>
+    <title>Memory - Partida</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <!-- jQuery (versión módulo) -->
+    <script type="module">
+        import $ from "../library/jquery-4.0.0.slim.module.min.js";
+        window.$ = $; // Hacemos $ global para game.js y memory.js
+    </script>
+
+    <!-- Código del juego -->
+    <script src="../js/game.js" type="module"></script>
+</head>
+
+<body>
+    <h1>Partida</h1>
+    <div id="game"></div>
+</body>
+</html>
