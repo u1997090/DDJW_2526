@@ -1,8 +1,8 @@
 addEventListener('load', function() {
     document.getElementById('play').addEventListener('click', 
     function(){
-       let alias = prompt("Introdueix el teu àlies:"); 
-	   console.log("Àlies del jugador:", alias);
+        let alias = prompt("Introdueix el teu àlies:"); 
+        console.log("Àlies del jugador:", alias);
     });
 
     document.getElementById('options').addEventListener('click', 
