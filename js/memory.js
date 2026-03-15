@@ -36,7 +36,9 @@ export function startGame(){
 
 export function clickCard(indx){
     if (game.ready < items.length) return;
-    goFront(indx);
+    setTimeout(function() {
+        goFront(indx);
+    }, 1000);
     if (game.lastCard === null) game.lastCard = indx; // Primera carta clicada
     else{ // Teníem carta prèvia
         if (items[game.lastCard] === items[indx]){
