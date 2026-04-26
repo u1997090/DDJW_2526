@@ -33,6 +33,12 @@ addEventListener('load', function() {
         window.location.assign("./html/game.html");
     });
 
+    //  BOTÓ DE RÀNQUING 
+    document.getElementById('ranking').addEventListener('click', 
+    function(){
+        window.location.assign("./html/ranking.html");
+    });
+
     document.getElementById('exit').addEventListener('click', 
     function(){
         console.warn("No es pot sortir!");
