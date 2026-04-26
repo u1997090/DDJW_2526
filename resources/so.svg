@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="128" viewBox="0 0 96 128" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="2" y="2" width="92" height="124" rx="10" fill="#ffffff" stroke="#000" stroke-width="2"/>
+  <rect x="8" y="8" width="80" height="112" rx="8" fill="#fff3e0" stroke="#ff9800" stroke-width="2"/>
+
+  <rect x="28" y="44" width="40" height="40" fill="#ff9800" stroke="#cc7a00" stroke-width="3"/>
+
+  <text x="10" y="22" font-family="Arial" font-size="12" fill="#333">SO</text>
+
+</svg>

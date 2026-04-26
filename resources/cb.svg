@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="128" viewBox="0 0 96 128" xmlns="http://www.w3.org/2000/svg">
+
+  <rect x="2" y="2" width="92" height="124" rx="10" fill="#ffffff" stroke="#000" stroke-width="2"/>
+  <rect x="8" y="8" width="80" height="112" rx="8" fill="#e8f0ff" stroke="#3366cc" stroke-width="2"/>
+
+  <circle cx="48" cy="64" r="28" fill="#3366cc" stroke="#123366" stroke-width="3"/>
+
+  <text x="10" y="22" font-family="Arial" font-size="12" fill="#333">CB</text>
+
+</svg>
